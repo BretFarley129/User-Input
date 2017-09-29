@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Users</title>
+    <link rel="stylesheet" href="users.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="users.js"></script>
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="main">
+            <table>
+                <thead>
+                    <div id="header">
+                    <tr >
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email Address</th>
+                    <th>Contact #</th>
+                    </tr>
+                </div>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div id="bottom">
+            <div id="banner">
+                <h1>Add User</h1>
+            </div>
+            <br><br>
+            <form id="userInput">
+                <label for="firstName">First Name: </label>
+                <input type="text" id="firstName" value="first name"><br><br>
+                <label for="lasrName">Last Name: </label>
+                <input type="text" id="lastName" value="last name"><br><br>
+                <label for="email"> Email: </label>
+                <input type="text" id="email" value="email"><br><br>
+                <label for="contact">Contact #: </label>
+                <input type="text" id="contact" value="contact"><br><br>
+                <input id="btn" type="submit" value="Add User">
+            </form>
+        </div>
+    </div>  
+</body>
+</html>
